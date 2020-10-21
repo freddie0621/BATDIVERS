@@ -1,15 +1,4 @@
-for %%1 in ("*.jpg") do (
 
-
-
-
-::curl "http://pikooli.com/JSONEPUBS1/recupepubsopfinjson.php?photos=%chaine%%%~n1.jpg&epubs=%%1"  -F file_commentaire=@%chaine%%%~n1.txt
-::curl "http://pikooli.com/JSONEPUBS1/recupepubsopfinjson.php?photos=%chaine%%%~n1.jpg&clefbatch=%clef%&epubs=%%1"  -F file_commentaire=@%chaine%%%~n1.txt
-
-::curl "http://pikooli.com/uploadcurl/recup.php?photos=%chaine%%%~n1.jpg"  -F Filedata=@%%1
-::curl "http://pikooli.com/uploadcurl/recup.php?photos=%chaine%%%~n1.jpg" 
-
-)
 
 ::set /p name=ENTREZ UN NOM DE REPERTOIRE: 
 ::echo "%name%"
